@@ -2,10 +2,10 @@
 
 ## Overview
 
-In order to demonstrate this recipe the following examples are provided:
+In order to demonstrate this recipe, the following examples are provided:
  
 1. **Static Dataset** - A test dataset consisting of collected tweets over the period of a week for the topic of "Application Performance Monitoring".  To collect these tweets the hashtags `'#apm', "#APMT", "#apmt", "#APM"` were monitored. These tweets have been pre-enriched with the field `topic` and value `APM`.  For purposes of example, this dataset only contains a single topic for ingestion using Filebeat.
-1. **Self Collection** -  A Logstash configuration for reference that can be used to collect tweets per pertaining to a set of topics.  Here a topic is defined as a set of keywords.  **For reference only.**
+1. **Self Collection** -  A Logstash configuration for reference, that can be used to collect tweets per pertaining to a set of topics.  Here a topic is defined as a set of keywords.  **For reference only.**
 
 ## Pre-requisites
 
@@ -205,7 +205,7 @@ To start the machine learning job, either:
 
 ## View Results
 
-On completion of the job execution navigate to the explorer results view for the job. Example anomalies are shown below.
-More specifically this shows the spike in #APM activity around the announcment of Elastic's opbeat acquisition. Additional activity highlights the WebRTCSummit summit in Santa Clara. 
+On completion of the job execution, navigate to the explorer results view for the job. Example anomalies are shown below.
+More specifically this shows the spike in #APM activity around the announcment of Elastic joining forces with Opbeat. Additional activity highlights the WebRTCSummit summit in Santa Clara. 
 
 ![Example Explorer View for Twitter Trends](https://user-images.githubusercontent.com/12695796/27926793-8f104b84-6281-11e7-8a74-521613280290.png)
